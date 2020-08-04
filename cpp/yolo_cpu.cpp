@@ -157,7 +157,7 @@ int doInference (string INPUT_IMAGE_PATH, int resize) {
 //Mark: Print result and write image.
     printf("Inference time: %f\n", t);
     printf("People number: %d\n", peopleNum);
-    imwrite("INPUT_IMAGE_PATH" + "-result.jpeg", frame);
+    imwrite(INPUT_IMAGE_PATH + "-result.jpeg", frame);
 
     return peopleNum;
 }
