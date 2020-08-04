@@ -1,5 +1,5 @@
 #include <iostream>
-#include "yolo_cpu.cpp"
+#include "yolo_cpu.hpp"
 
 int main(void) {
     int resize;
