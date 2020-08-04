@@ -1,11 +1,9 @@
 # RPizero-people-detector
 Raspberry pi zero, armv6l, OpenCV DNN, YOLO, COCO dataset
-
-### Requirements
-- OpenCV 4.4.0 with contrib
   
-### Install OpenCV 4.4.0 in Raspberry Pi Zero
-0. Expand file system
+# Install OpenCV 4.4.0 in Raspberry Pi Zero
+[ref here](https://towardsdatascience.com/installing-opencv-in-pizero-w-8e46bd42a3d3)
+####0. Expand file system
 ~~~
 $ sudo nano /etc/dphys-swapfile
 ~~~
@@ -25,7 +23,7 @@ CONF_SWAPSIZE=2048
 .
 ~~~
 
-1. Install OpenCV dependencies
+####1. Install OpenCV dependencies
 ~~~
 $ sudo apt-get update
 $ sudo apt-get upgrade
