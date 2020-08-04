@@ -5,7 +5,7 @@ Raspberry pi zero, armv6l, OpenCV DNN, YOLO, COCO dataset
 [ref here](https://towardsdatascience.com/installing-opencv-in-pizero-w-8e46bd42a3d3)  
 
 
-####0. Expand file system
+#### 0. Expand file system
 ~~~
 $ sudo nano /etc/dphys-swapfile
 ~~~
