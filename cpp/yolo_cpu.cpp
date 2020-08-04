@@ -133,8 +133,8 @@ int doInference (string INPUT_IMAGE_PATH, int resize) {
 
     net.setInput(blob,
                  "", 
-                 double scale=1/255.0, 
-                 Scalar mean=Scalar());
+                 1/255.0, // scale: double
+                 Scalar()); // mean: Scalar
 
 //Mark: Go inference
     net.forward(outs, outNames);
