@@ -5,7 +5,7 @@ Raspberry pi zero, armv6l, OpenCV DNN, YOLO, COCO dataset
 [ref here](https://towardsdatascience.com/installing-opencv-in-pizero-w-8e46bd42a3d3)  
 
 
-#### 0. Expand file system
+#### 1. Expand file system
 ~~~
 $ sudo nano /etc/dphys-swapfile
 ~~~
@@ -25,7 +25,7 @@ CONF_SWAPSIZE=2048
 .
 ~~~
 
-####1. Install OpenCV dependencies
+#### 2. Install OpenCV dependencies
 ~~~
 $ sudo apt-get update
 $ sudo apt-get upgrade
@@ -40,7 +40,7 @@ $ sudo apt-get install libjasper-dev liblapack-dev libhdf5-dev
 $ sudo apt-get install gcc-arm* protobuf-compiler
 ~~~
 
-2. Download OpenCV 4.4.0
+#### 3. Download OpenCV 4.4.0
 ~~~
 $ cd ~
 $ mkdir opencv && cd opencv
@@ -50,7 +50,7 @@ $ unzip opencv.zip
 $ unzip opencv_contrib.zip
 ~~~
 
-3. CMake and compile OpenCV 4.4.0
+#### 4. CMake and compile OpenCV 4.4.0
 ~~~
 $ cd opencv-4.4.0
 $ mkdir build && cd build
@@ -75,19 +75,19 @@ $ sudo make install
 $ sudo ldconfig
 ~~~
 
-### Usage of this repo
+# Usage of this repo
 
-1. Get pre-trained model
+#### 1. Get pre-trained model
 ~~~
 $ sh getModel.sh
 ~~~
 
-2. Compile & build
+#### 2. Compile & build
 ~~~
 $ make
 ~~~
 
-3. Run
+#### 3. Run
 ~~~
 $ ./main
 ~~~
