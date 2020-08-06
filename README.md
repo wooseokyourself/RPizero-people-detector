@@ -29,7 +29,7 @@ CONF_SWAPSIZE=2048
 ~~~
 $ sudo apt-get update
 $ sudo apt-get upgrade
-$ sudo apt-get install git build-essential cmake pkg-config checkinstall
+$ sudo apt-get install git build-essential cmake checkinstall
 $ sudo apt-get install libjpeg-dev libtiff-dev libgif-dev
 $ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev
 $ sudo apt-get install libgtk2.0-dev
