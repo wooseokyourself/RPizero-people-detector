@@ -103,9 +103,9 @@ void imagePadding (Mat& frame) {
 int doInference (string INPUT_IMAGE_PATH, int resize) {
 
 //Mark: Init function; Same in every call
-    string MODEL_PATH = "../bin/model/yolov3.weights";
-    string CFG_PATH = "../bin/model/yolov3.cfg";
-    string CLASSES_PATH = "../bin/model/coco.names";
+    string MODEL_PATH = "bin/model/yolov3.weights";
+    string CFG_PATH = "bin/model/yolov3.cfg";
+    string CLASSES_PATH = "bin/model/coco.names";
 
     vector< vector<int> > overlaps;
 
